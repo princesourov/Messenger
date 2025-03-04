@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "397862255026",
+    "firebase_url": "https://group-chat-ad1d0-default-rtdb.firebaseio.com",
+    "project_id": "group-chat-ad1d0",
+    "storage_bucket": "group-chat-ad1d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397862255026:android:08c2fd7fbd90c6a7148cab",
+        "android_client_info": {
+          "package_name": "com.example.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCxJnsy_D5Em1p9kDfI7B0O3t5dVrzu8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397862255026:android:ea7099a8b27e1406148cab",
+        "android_client_info": {
+          "package_name": "example.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCxJnsy_D5Em1p9kDfI7B0O3t5dVrzu8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
