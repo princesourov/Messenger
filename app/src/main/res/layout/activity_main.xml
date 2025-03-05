@@ -9,14 +9,14 @@
     tools:context=".MainActivity">
 
 
-    <EditText
+    <TextView
         android:id="@+id/nameEt"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:gravity="center"
-        android:hint="Your Name"
-        android:textColorHint="@color/white"
+        android:text="Your Name"
+        android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -31,7 +31,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/baseline_message_24"
         android:drawablePadding="10dp"
-        android:hint="Enter Your Name"
+        android:hint="Message"
         android:inputType="text"
         android:paddingLeft="15dp"
         android:textColor="@color/white"
@@ -47,13 +47,13 @@
         android:layout_width="49dp"
         android:layout_height="47dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="5dp"
         android:src="@drawable/baseline_send_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rr"
+        android:id="@+id/Recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
